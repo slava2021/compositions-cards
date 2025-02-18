@@ -1,10 +1,6 @@
-import { React } from "react";
-// import { CardImage } from "./CardImage";
-
 type CardsProps = {
   title: string;
   text: string;
-  className: string;
   image?: string;
 };
 

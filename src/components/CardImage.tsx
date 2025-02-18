@@ -1,5 +1,3 @@
-// import { React } from "react";
-
 export const CardImage = () => (
   <svg
     className="bd-placeholder-img card-img-top"
