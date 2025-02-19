@@ -1,4 +1,4 @@
-import { CardItems } from "./components/CardItems";
+import { CardItems, CardItemsText } from "./components/CardItems";
 import { CardImage } from "./components/CardImage";
 import "./App.scss";
 
@@ -15,7 +15,7 @@ function App() {
         text={propsCard.text}
         image={<CardImage />}
       />
-      <CardItems title={propsCard.title} text={propsCard.text} />
+      <CardItemsText title={propsCard.title} text={propsCard.text} />
     </>
   );
 }
